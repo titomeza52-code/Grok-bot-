@@ -1,0 +1,27 @@
+{
+  "name": "grok-bot",
+  "version": "0.1.0",
+  "description": "A minimal Grok-powered chatbot web app deployed on Netlify.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/titomeza52-code/Grok-bot-.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^6.0.0",
+    "@netlify/vite-plugin": "^3.0.1",
+    "@vitejs/plugin-react": "^6.1.1",
+    "vite": "^8.3.0"
+  }
+}
